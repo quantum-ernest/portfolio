@@ -116,8 +116,9 @@ export default function Projects() {
                               <Github className="mr-2 h-4 w-4" /> Code
                             </Link>
                           </Button>
-                          <Button size="sm" asChild className="relative overflow-hidden">
-                            <Link href={project.demoLink || "#"}>
+                          {project.demoLink && (
+                              <Button size="sm" asChild className="relative overflow-hidden">
+                            <Link href={project.demoLink} target="_blank">
                               <span>Live Demo</span>
                               <motion.div
                                 className="absolute right-2"
@@ -135,6 +136,8 @@ export default function Projects() {
                               </motion.div>
                             </Link>
                           </Button>
+
+                          )}
                         </CardFooter>
                       </Card>
                     </motion.div>

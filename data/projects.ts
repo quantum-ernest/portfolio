@@ -4,7 +4,7 @@ interface Project {
     description: string
     image: string
     techStack: string[]
-    demoLink?: string
+    demoLink: string | null
     githubLink?: string
     featured: boolean
     category: "web" | "tool" | "opensource" | "other"
@@ -18,7 +18,7 @@ export const projects: Project[] = [
             "AI-powered commit message generator that leverages various AI providers to create meaningful commit messages from your code changes.",
         image: "/ai-commit-generator.png?height=300&width=500",
         techStack: ["Python"],
-        demoLink: "#",
+        demoLink: null,
         githubLink: "https://github.com/quantum-ernest/cmscribe",
         featured: true,
         category: "tool",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
         description: `A personal site generator with org-mode support`,
         image: "/opensource.png?height=300&width=500",
         techStack: ["Go"],
-        demoLink: "#",
+        demoLink: null,
         githubLink: "https://github.com/facundoolano/jorge",
         featured: true,
         category: "opensource",
@@ -63,7 +63,7 @@ export const projects: Project[] = [
         description: `Designed and built a backend service for an NGO’s course management platform, allowing mentors to create courses, assign projects, and support mentee registration and grading, with multiple mentors per course.`,
         image: "/course-management-system.png?height=300&width=500",
         techStack: ["FastAPI", "PostgresQl", "Redis"],
-        demoLink: "#",
+        demoLink: null,
         githubLink: "#",
         featured: true,
         category: "web",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
         description: `Developed a desktop application leveraging a deep-learning image classifier for accurate facial recognition-based student attendance management, achieving a 98% accuracy rate`,
         image: "/placeholder.svg?height=300&width=500",
         techStack: ["Python", "TKinter", "Tensorflow"],
-        demoLink: "#",
+        demoLink: null,
         githubLink: "#",
         featured: true,
         category: "web",
@@ -85,7 +85,7 @@ export const projects: Project[] = [
         description: `Built an intelligent video surveillance system for deterring, detecting, and preventing unauthorized personnel from entering restricted areas`,
         image: "/placeholder.svg?height=300&width=500",
         techStack: ["Python", "PyQt"],
-        demoLink: "#",
+        demoLink: null,
         githubLink: "#",
         featured: true,
         category: "other",
