@@ -110,26 +110,12 @@ export default function Contact() {
                     whileHover={{ x: 5 }}
                     transition={{ type: "spring", stiffness: 400 }}
                   >
-                    <div className="p-3 rounded-md bg-gradient-to-br from-cyan-500 to-blue-500 text-white mr-4 shadow-lg">
-                      <Phone className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+233 50 456 8396</p>
-                    </div>
-                  </motion.div>
-
-                  <motion.div
-                    className="flex items-start"
-                    whileHover={{ x: 5 }}
-                    transition={{ type: "spring", stiffness: 400 }}
-                  >
                     <div className="p-3 rounded-md bg-gradient-to-br from-blue-500 to-purple-500 text-white mr-4 shadow-lg">
                       <MapPin className="h-6 w-6" />
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Location</h3>
-                      <p className="text-muted-foreground">Accra, Ghana</p>
+                      <p className="text-muted-foreground">Hildesheim, Germany</p>
                     </div>
                   </motion.div>
                 </div>

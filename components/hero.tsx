@@ -35,9 +35,11 @@ export default function Hero() {
                             Ernest Kwabena Asare
                         </h1>
                         <p className="text-lg mb-8 max-w-lg">
-                            I specialize in building robust applications with expertise in backend, frontend, DevOps,
-                            and automation.
-                            Passionate about creating efficient and scalable solutions.
+                            Backend-focused Software Engineer with experience in building and scaling automation, IoT, and
+                            ERP systems in production environments. Proven track record of delivering high-impact solutions
+                            as a team lead, designing real-time data systems, integrating platforms, and driving cross-
+                            functional development efforts. Currently pursuing an MSc in Data Analytics with a focus on
+                            Machine Learning.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Button
@@ -109,7 +111,7 @@ export default function Hero() {
                             <div
                                 className="relative aspect-square rounded-full overflow-hidden border-4 border-white/10 shadow-2xl">
                                 <img
-                                    src="/profile_pic.png?height=500&width=500"
+                                    src="/profile_pic.jpg?height=500&width=500"
                                     alt="Ernest Kwabena Asare"
                                     className="w-full h-full object-cover"
                                 />
