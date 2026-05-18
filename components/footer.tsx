@@ -23,7 +23,7 @@ export default function Footer() {
                             </span>
                             <span> 👨‍💻</span>
                         </Link>
-                        <p className="mt-2 text-muted-foreground">Software Engineer specializing in full-stack
+                        <p className="mt-2 text-muted-foreground">Software Engineer specializing in Backend
                             development</p>
                     </motion.div>
 

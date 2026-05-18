@@ -13,33 +13,20 @@ export const experiences: Experience[] = [
         period: "11/2022 - 11/2025",
         location: "Accra, Ghana",
         achievements: [
-            `Led the design and delivery of end-to-end automation systems across fuel stations, logistics, and
-enterprise operations, reducing operational losses by 25% and improving overall efficiency`,
+    `Odoo ERP: Engineered custom Odoo modules and integration layers, building connectors to external systems (payments, IoT, APIs), contributing to cross-version migrations, and extending core functionalities to deliver scalable, business-critical ERP solutions.`,
 
-            `Architected and deployed real-time monitoring platforms integrating IoT data (GPS,
-temperature, fuel volume), enabling proactive decision-making and theft prevention in fuel
-stations and trucks.`,
+    `Fuel Station Automation: Implemented a real-time Fuel Station Management and Monitoring system that reduced average reporting time and station losses by 25% while improving operational efficiency. Developed an ERP solution for configurations, reporting, and price adjustments, accelerating decision-making processes.`,
 
-            `Built and optimized ERP solutions for configuration, reporting, and operational control,
-reducing reporting overhead and enabling faster operational decisions.`,
+    `Remcash Payment Gateway: Integrated Telecel Cash API and developed secure encryption and compliance services, achieving full AML & KYC compliance. Created a streamlined onboarding system that reduced customer onboarding time by 40%.`,
 
-            `Developed and integrated a secure payment gateway (Telecel Cash API) with encryption and full
-AML/​KYC compliance, reducing customer onboarding time by 40%.`,
+    `Fuel Truck Automation System: Engineered a real-time tracking solution for GPS, temperature, and fuel volume data in fuel trucks, improving fuel management and preventing theft. Integrated ERP applications for seamless device synchronization and management.`,
 
-            `Engineered a fleet management system supporting 100+ vehicles with real-time tracking, driver
-performance analytics, and historical reporting across multiple locations.`,
+    `Lunch Ordering System: Designed and developed backend services for a system serving over 1,000 employees, ensuring robust performance, efficiency, and scalability.`,
 
-            `Designed and maintained scalable backend services supporting 1,000+ users, a lunch ordering
-system, and a job portal, ensuring high performance and reliability.`,
+    `Fleet Management System: Designed and built a robust fleet management system supporting Galileosky 7x devices, with real-time tracking, automated notifications, driver performance metrics, and downloadable vehicle history. The system manages over 100 vehicles across multiple locations.`,
 
-            `Led the implementation of industrial QR-based cylinder tracking via RS-485, improving data
-accuracy and reducing production time by 45%.`,
-
-            `Engineered custom Odoo modules and integration layers, building connectors to external
-systems (payments, IoT, APIs), contributing to cross-version migrations, and extending core
-functionalities to deliver scalable, business-critical ERP solutions.`,
-
-        ],
+    `Cylinder Bottling Automation: Led the development of a QR code reader system using RS-485 serial communication, improving data accuracy and reducing production time by 45%.`
+],
     },
     {
         company: "University of Ghana Computing Systems",
